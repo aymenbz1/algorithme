@@ -1,0 +1,33 @@
+nb_mot=1
+//longueur de la phrase:
+fonction calcul(texte:string)
+write(texte.length)
+END
+
+
+//nbre de mots :
+fonction nb_mots(texte:string)
+nbre=0;
+esp=' ';
+for i from 0 to (texte.length)-1 do
+if (texte[i]==esp)
+nbre:=nbre+1;
+END_if
+END_FOR
+write(nbre);
+END
+
+
+//determiner nbre de voyelle :
+fonction nbrvoyelles(texte:string)
+VAR i:integer;
+nbr=0;
+for i from 0 to (texte.length)-1 do 
+if (text[i]='a' or text[i]='e' or text[i]='i' or text[i]='o' or text[i]='u' or text[i]='y')
+nbr:=nbr+1
+END_if
+END_FOR
+write(nbr)
+END
+
+
